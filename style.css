@@ -22,8 +22,13 @@ html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
     font-family: Helvetica, sans-serif;
+    color: white;
+    background-color: #1F2526;
 }
 
+h1 {
+    margin-top: 0;
+}
 img {
     display: block;
     width: 100%
@@ -38,6 +43,10 @@ img {
 .container.image {
     max-width: 1200px;
     padding: 0;
+}
+
+.byline h3 {
+    margin: 0 auto 0;
 }
 
 .image p {
